@@ -1,6 +1,10 @@
 body{
-  font-family: 'Anton', sans-serif;
   line-height: 1.8;
+}
+
+.contents-wrap{
+  max-width: 940px;
+  margin: 0 auto;
 }
 /* 
 ヘッダー
@@ -8,6 +12,7 @@ body{
 .header{
   background-size: cover;
   background: url(../img/header-bg.jpg) center center;
+  font-family: 'Anton', sans-serif;
   height: 480px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,6 +39,7 @@ body{
 
 .global-navigation{
   display: block;
+  font-family: 'Anton', sans-serif;
   position: absolute;
   top: 410px;
   z-index: 1;
@@ -68,4 +74,40 @@ body{
   background-color: black;
   color: white;
   transition: 0.15s;
+}
+
+/* プロフィール */
+
+section{
+  padding: 64px 0;
+}
+
+#profile .section-title{
+  font-family: 'Anton', sans-serif;
+  margin: 48px 0;
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: 10px;
+  text-decoration: underline
+}
+
+#profile figure{
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#profile img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#profile .description{
+  font-family: monospace, monospace;
+  width: 500px;
+  height: 300px;
 }
