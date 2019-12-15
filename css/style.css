@@ -29,3 +29,43 @@ body{
   opacity: 0.9;
   text-align: center;
 }
+
+/* ナビゲーション */
+
+.global-navigation{
+  display: block;
+  position: absolute;
+  top: 410px;
+  z-index: 1;
+}
+
+.ul-wrap{
+  background-color: #ddd;
+  opacity: 0.8;
+  width: 100vw;
+}
+
+.nav-menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item{
+  display: block;
+  font-size: 32px;
+  height: 70px;
+  line-height: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  width: 25%;
+  cursor: pointer;
+}
+
+.nav-item:hover{
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}
