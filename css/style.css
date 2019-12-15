@@ -1,0 +1,32 @@
+body{
+  font-family: 'Anton', sans-serif;
+  line-height: 1.8;
+}
+
+/* 
+ヘッダー
+*/
+.header{
+  background-size: cover;
+  background: url(../img/header-bg.jpg) center center;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo{
+  display: inline;
+  color: #ffffff;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  margin: 0;
+  opacity: 0.9;
+  text-align: center;
+}
