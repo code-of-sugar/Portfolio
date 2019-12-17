@@ -33,6 +33,7 @@ body{
   margin: 0;
   opacity: 0.9;
   text-align: center;
+  text-shadow: 2px 2px 2px #000;
 }
 
 /* ナビゲーション */
@@ -79,7 +80,7 @@ body{
 /* プロフィール */
 
 section{
-  padding: 64px 0;
+  padding: 90px 0;
 }
 
 #profile .section-title{
