@@ -1,6 +1,5 @@
 body{
   line-height: 1.8;
-  background-color: #afafaf
 }
 
 .contents-wrap{
@@ -118,7 +117,8 @@ section .section-title{
 /* スキル */
 
 .skill-bar-wrap{
-  background-color: white;
+  border: solid #afafaf 1px;
+  background-color: #efefef;
   box-sizing: border-box;
   padding: 16px;
   width: 100%;
