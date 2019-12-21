@@ -1,0 +1,266 @@
+body{
+  line-height: 1.8;
+}
+
+.contents-wrap{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+section{
+  padding: 90px 0;
+}
+
+section .section-title{
+  font-family: 'Anton', sans-serif;
+  margin: 48px 0;
+  text-align: center;
+  font-size: 64px;
+  letter-spacing: 10px;
+  text-decoration: underline
+}
+
+/* 
+ヘッダー
+*/
+.header{
+  background-size: cover;
+  background: url(../img/header-bg.jpg) center center;
+  font-family: 'Anton', sans-serif;
+  height: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo{
+  display: inline;
+  color: #fff;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  margin: 0;
+  opacity: 0.9;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/* ナビゲーション */
+
+.global-navigation{
+  display: block;
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  top: 410px;
+  z-index: 1;
+}
+
+.ul-wrap{
+  background-color: #ddd;
+  opacity: 0.8;
+  width: 100vw;
+}
+
+.nav-menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item{
+  display: block;
+  font-size: 32px;
+  height: 70px;
+  line-height: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  width: 25%;
+  cursor: pointer;
+}
+
+.nav-item:hover{
+  background-color: black;
+  color: white;
+  transition: 0.15s;
+}
+
+/* プロフィール */
+
+#profile figure{
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#profile img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#profile .description{
+  font-family: monospace, monospace;
+  width: 500px;
+  height: 300px;
+}
+
+/* スキル */
+
+.skill-bar-wrap{
+  border: solid #afafaf 1px;
+  background-color: #efefef;
+  box-sizing: border-box;
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.work-type{
+  font-size: 2rem;
+  margin: 0;
+}
+
+.skill-lev-icon{
+  color: black;
+  font-size: 1.5rem;
+  height: 32px;
+  width: 100%;
+}
+.skill-lev-icon-cont{
+  position: relative;
+}
+
+.skill-lev-icon i:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.skill-lev-icon i:nth-child(2){
+  position: absolute;
+  top: 0;
+  left: 48%;
+}
+
+.skill-lev-icon i:nth-child(3){
+  position: absolute;
+  top: 0;
+  left: 97%;
+}
+
+.skill-bar-cont{
+  width: 100%;
+  margin: 0 0 48px 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bar-item{
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  padding-left: 8px;
+  position: relative;
+  z-index: 0;
+  margin: 16px 0;
+}
+
+.bar-item:nth-child(1){
+  margin-top: 0;
+}
+
+.bar-item::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #cfcfcf;
+  z-index: -2;
+}
+
+.bar-item::after{
+  background-color: rgb(44, 194, 111);;
+  content: "";
+  display: block;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+
+}
+/* フロント */
+.skill-html::after{
+  max-width: 80%;
+}
+
+.skill-css::after{
+  max-width: 70%
+}
+
+.skill-javascript::after{
+  max-width: 50%;
+}
+
+.skill-jquery::after{
+  max-width: 50%;
+}
+
+.skill-react::after{
+  max-width: 8%;
+}
+
+/* バックエンド */
+
+.skill-ruby::after{
+  max-width: 70%;
+}
+
+.skill-python::after{
+  max-width: 25%;
+}
+
+.skill-rails::after{
+  max-width: 85%;
+}
+
+.skill-flask::after{
+  max-width: 40%;
+}
+
+.skill-django::after{
+  max-width: 5%;
+}
+
+/* その他(インフラ、ツール等) */
+
+.skill-aws::after{
+  max-width: 50%;
+}
+
+.skill-docker::after{
+  max-width: 30%;
+}
+
+.skill-github::after{
+  max-width: 60%;
+}
+
+.skill-slack::after{
+  max-width: 80%;
+}
