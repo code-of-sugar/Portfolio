@@ -20,6 +20,13 @@ section .section-title{
   text-decoration: underline
 }
 
+.col-white{
+  color: #dfdfdf;
+}
+
+.bc-bl{
+  background-color: #2f2f2f;
+}
 /* 
 ヘッダー
 */
@@ -263,4 +270,35 @@ section .section-title{
 
 .skill-slack::after{
   max-width: 80%;
+}
+
+/* Work */
+
+.products{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  font-size: 0.8rem;
+  margin: 75px 0;
+}
+
+.product{
+  background-color: #dfdfdf;
+  color: #2f2f2f;
+  height: 300px;
+  text-align: center;
+  width: 200px;
+}
+
+.product img{
+  width: 200px;
+  height: 155px;
+}
+.product-wrap{
+  
 }
