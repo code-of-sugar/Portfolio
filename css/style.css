@@ -299,6 +299,32 @@ section .section-title{
   width: 200px;
   height: 155px;
 }
-.product-wrap{
-  
+
+/* CONTACT */
+
+.link-icon{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.contact-text{
+  text-align: center;
+}
+
+.link-btn{
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  margin: 0 32px;
 }
